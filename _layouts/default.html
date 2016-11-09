@@ -13,7 +13,24 @@
 			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.css"/>
 			 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     			<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.js"></script>
-
+			<style type="text/css">
+			    body > .ui.container {
+			      margin-top: 3em;
+			    }
+			   .ui.container > h1 {
+			      font-size: 3em;
+			      text-align: center;
+			      font-weight: normal;
+			    }
+			    .ui.container > h2.dividing.header {
+			      font-size: 2em;
+			      font-weight: normal;
+			      margin: 4em 0em 3em;
+			    }
+			    .ui.table {
+			      table-layout: fixed;
+			    }
+			  </style>
 		</head>
 		<body>
 			 
@@ -27,7 +44,7 @@
 			     	</nav>    
 			  </div>
 			
-			<div class="ui raised very padded text container segment">
+			<div class="ui container">
 				{{ content }}
 			</div><!-- /.container -->
 			<footer>
