@@ -1,6 +1,6 @@
 ---
-layout: default
-title: Lamda expressions
-date: 11-15-2016
+layout: post
+title: "Lamda Expressions"
+date: 2016-15-11
 ---
 Some lamda expressions blah blah
