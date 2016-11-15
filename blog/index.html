@@ -4,12 +4,12 @@ title: Note entries
 notes: active
 ---
 	<!--h4 class="ui header">{{ page.title }}</h4-->
-	<ul>
+	
 	  {% for post in site.posts %}
-	   <li>
-	    <span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+	<div>
+	<a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <span class="small">{{ post.date | date_to_string }}</span> 
 		   
-	   </li>
+	</div>
 	  {% endfor %}
 	
-</ul>
+
