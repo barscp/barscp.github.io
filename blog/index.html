@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Barry Peralta
+title: Note entries
 notes: active
 ---
 	<h2 class="ui header">{{ page.title }}</h2>
-	<ul class="posts">
-
+	
 	  {% for post in site.posts %}
-	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+	   <div>	
+	    <span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
 		    <p>{{post.introduction}}</p>
-		</li>
+	   </div>
 	  {% endfor %}
-	</ul>
+	
